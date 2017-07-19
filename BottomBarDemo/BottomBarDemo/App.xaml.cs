@@ -53,6 +53,30 @@ namespace BottomBarDemo
                     bottomBarPage.FixedMode = true;
                     bottomBarPage.Children.Add(tabPage);
                 }
+                else if (i == 1)
+                {
+                    var tabPage = new TopBarPage()
+                    {
+                        Title = title,
+                        Icon = icon
+                    };
+
+                    // set tab color
+                    if (tabColor != null)
+                    {
+                        BottomBarPageExtension.SetTabColor(tabPage, Color.FromHex(tabColor));
+                    }
+                    // Set badges
+                    BottomBarPageExtension.SetBadgeCount(tabPage, tabBadgeCount);
+                    BottomBarPageExtension.SetBadgeColor(tabPage, Color.FromHex(tabBadgeColor));
+
+                    // set label based on title
+                    //tabPage.UpdateLabel();
+
+                    // add tab pag to tab control
+                    bottomBarPage.FixedMode = true;
+                    bottomBarPage.Children.Add(tabPage);
+                }
                 else
                 {
                     var tabPage = new ListPage()
