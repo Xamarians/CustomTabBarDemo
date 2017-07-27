@@ -1,16 +1,15 @@
 ﻿<Properties StartupConfiguration="{49812E8B-2011-4C79-9E37-B9E1F439F1DA}|Default">
-  <MonoDevelop.Ide.ItemProperties.BottomBarDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.3f7d5c1b270e5c35b26219592fbb4059eadfbc01" />
+  <MonoDevelop.Ide.ItemProperties.BottomBarDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AD89E265-50F1-4B61-896A-2CDBA7817791" />
   <MonoDevelop.Ide.ItemProperties.BottomBarDemo.Android PreferredExecutionTarget="Xamarin.Player.XamarinStudio.DefaultPlayerExecutionTarget" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CustomTabBarDemo Status">
     <Files>
-      <File FileName="BottomBarDemo/BottomBarDemo.iOS/AppDelegate.cs" Line="25" Column="49" />
+      <File FileName="BottomBarDemo/BottomBarDemo.iOS/AppDelegate.cs" Line="29" Column="1" />
       <File FileName="BottomBarDemo/BottomBarDemo.iOS/Main.cs" Line="15" Column="13" />
       <File FileName="BottomBarDemo/BottomBarDemo/BottomBarPage.cs" Line="1" Column="1" />
       <File FileName="BottomBarDemo/BottomBarDemo/App.xaml" Line="10" Column="15" />
       <File FileName="BottomBarDemo/BottomBarDemo/App.xaml.cs" Line="45" Column="34" />
-      <File FileName="BottomBarDemo/BottomBarDemo/TabPage.xaml" Line="12" Column="15" />
       <File FileName="BottomBarDemo/BottomBarDemo.iOS/Renderers/EmptyClass.cs" Line="4" Column="25" />
-      <File FileName="BottomBarDemo/BottomBarDemo.iOS/Renderers/TopBarPageRenderer.cs" Line="148" Column="12" />
+      <File FileName="BottomBarDemo/BottomBarDemo.iOS/Renderers/TopBarPageRenderer.cs" Line="115" Column="3" />
       <File FileName="BottomBarDemo/BottomBarDemo.Android/Renderers/BottomBarPageRenderer.cs" Line="22" Column="81" />
       <File FileName="BottomBarDemo/BottomBarDemo.iOS/Renderers/CustomTabButton.cs" Line="20" Column="14" />
       <File FileName="BottomBarDemo/BottomBarDemo/TopBarPage.xaml" Line="20" Column="14" />
@@ -18,9 +17,11 @@
       <File FileName="CustomTabBarDemo Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/a/Documents/GIT/CustomTabBarDemo/BottomBarDemo/BottomBarDemo.iOS/Renderers/TopBarPageRenderer.cs" relfile="BottomBarDemo/BottomBarDemo.iOS/Renderers/TopBarPageRenderer.cs" line="49" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

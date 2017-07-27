@@ -43,6 +43,9 @@ protected override void OnElementChanged(VisualElementChangedEventArgs e)
 	_tabbedPage.PagesChanged += TabbedPagePagesChanged;
 	_tabbedPage.CurrentPageChanged += TabbedPageCurrentPageChanged;
 	View.BackgroundColor = UIColor.LightGray;
+			//UIViewController viewController = new UIViewController();
+			//viewController.HidesBottomBarWhenPushed = true;
+
 
 	// create our scroll view which will hold all our tabs 
 	_tabScrollView = new UIScrollView(new CGRect(0, View.Frame.Top, View.Frame.Width, TabHeight));
